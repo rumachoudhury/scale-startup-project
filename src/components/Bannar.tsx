@@ -19,7 +19,7 @@ function Bannar() {
         decoding="async"
         src="/Circle.png"
         style={{ color: "transparent" }}
-        className="absolute bottom-[30px] right-40 opacity-60 pointer-events-none z-0"
+        className="absolute bottom-[30px] right-40 opacity-80 pointer-events-none z-0"
         animate={{
           y: [0, -200, 0], // subtle float
           scale: [1, 1.05, 1],
@@ -34,9 +34,10 @@ function Bannar() {
       {/* Left Side: Text and Button */}
       <div className="text-center lg:text-left max-w-xl space-y-6">
         <h1 className="text-white text-4xl md:text-6xl font-bold">
-          techserve4u Hero
+          <span className="text-[#F05B2D]">techserve4u </span> Hero
         </h1>
-        <h2 className="text-white text-xl md:text-6xl font-semibold">
+
+        <h2 className="text-white text-2xl md:text-6xl font-semibold">
           Your Trusted Partner for Startup Growth Solutions
         </h2>
         <p className="text-gray-200 text-base md:text-lg">
@@ -51,15 +52,6 @@ function Bannar() {
           </button>
         </div>
       </div>
-
-      {/* Right Side: Video */}
-      {/* <div className="w-full max-w-2xl h-full">
-        <iframe
-          src="https://player.vimeo.com/video/1069751828?h=d7615b1781"
-          className="aspect-video h-full w-full rounded-md object-cover sm:h-[500px]"
-          allowFullScreen
-        ></iframe>
-      </div> */}
 
       <div className="relative w-full max-w-2xl h-full z-10">
         {/* Video */}

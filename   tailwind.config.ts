@@ -1,19 +1,3 @@
-// import type { Config } from "tailwindcss";
-
-// const config: Config = {
-//   darkMode: ["class"],
-//   content: [
-//     "./src/app/**/*.{js,ts,jsx,tsx}",
-//     "./src/components/**/*.{js,ts,jsx,tsx}",
-//   ],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// };
-
-// export default config;
-// ---------------------------------
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
@@ -33,8 +17,19 @@ module.exports = {
         foreground: "var(--foreground)",
         primary: "hsl(var(--primary))",
         "primary-foreground": "hsl(var(--primary-foreground))",
+        tertiary: "#E73CE7",
+
+        card: "var(--card)",
+        "card-foreground": "var(--card-foreground)",
       },
       keyframes: {
+        shake: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "20%": { transform: "translateX(-2px)" },
+          "40%": { transform: "translateX(2px)" },
+          "60%": { transform: "translateX(-2px)" },
+          "80%": { transform: "translateX(2px)" },
+        },
         bounceSlow: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-20px)" },
@@ -95,6 +90,11 @@ module.exports = {
             transform: "rotate(270deg) translateY(-10px)",
           },
         },
+
+        slowspin: {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -112,6 +112,10 @@ module.exports = {
         bounce: "bounce 5s ease-in-out infinite",
         // "rotate-bounce":
         //   "rotate 10s linear infinite, bounce 5s ease-in-out infinite",
+
+        slowspin: "spin 10s linear infinite", // 10s for slow rotation
+
+        shake: "shake 0.5s ease-in-out",
       },
     },
   },
