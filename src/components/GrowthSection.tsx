@@ -6,7 +6,7 @@ export default function GrowthSection() {
         We Fuel Startup Hyper-Growth
       </h2>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mx-auto max-w-[1400px] ">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mx-auto max-w-[1350px] ">
         {/* Card 1 */}
         <div className="buttonHover rounded-lg  p-6 shadow-md sm:p-8 bg-[#F8C3F0] ">
           <div className="max-w-min rounded-full  p-3  bg-[#E73CE7]">

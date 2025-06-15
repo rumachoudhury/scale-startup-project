@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
               </a>
             </li>
             <li>
-              <a className="hover:text-gray-400" href="#BusinessConsultation">
+              <a className="hover:text-gray-400" href="#contact">
                 Contact
               </a>
             </li>

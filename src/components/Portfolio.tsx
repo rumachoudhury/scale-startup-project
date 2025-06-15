@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div className=" py-6 lg:py-14 bg-[#FCFAF2]">
+    <div id="portfolio" className="py-6 lg:py-14 bg-[#FCFAF2]">
       <div className="flex items-center justify-between">
         <p className="bg-[#FEE19B] text-md text-black text-cecter font-bold mx-4 px-6 py-1 rounded-full">
           Our Project
@@ -98,7 +98,7 @@ export default function Portfolio() {
       </div>
 
       <a
-        href="/portfolio"
+        href="/OurPortfolio"
         className="inline-flex items-center justify-end gap-2 rounded-lg bg-[#F05B2D] px-6 py-2 text-white text-base font-semibold hover:bg-[#d14f25] transition-colors ml-60"
       >
         <ArrowRight className="w-4 h-4 rounded-full border  " />

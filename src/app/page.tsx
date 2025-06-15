@@ -1,5 +1,5 @@
+import Navbar from "@/components/Navbar";
 import Bannar from "@/components/Bannar";
-
 import Struggling from "@/components/ Struggling";
 import Solutions from "@/components/Solutions";
 import GrowthSection from "@/components/GrowthSection";
@@ -15,18 +15,16 @@ import StartupDomination from "@/components/StartupDomination";
 import Roadmap from "@/components/Roadmap";
 import CashAcceleration from "@/components/CashAcceleration";
 import AutopilotMode from "@/components/AutopilotMode";
-import BusinessConsultation from "@/components/BusinessConsultation";
-// import CrisesToCash from "@/components/CrisesToCash";
-import Navbar from "@/components/Navbar";
+// import BusinessConsultation from "@/components/Contact";
 import Subscribe from "@/components/Subscribe";
 import CodeRed from "@/components/CodeRed";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <Navbar /> */}
       <Bannar />
       <Struggling />
       <Solutions />
@@ -42,9 +40,9 @@ export default function Home() {
       <StartupDomination />
       <Roadmap />
       <CashAcceleration />
-      {/* <CrisesToCash /> */}
       <AutopilotMode />
-      <BusinessConsultation />
+      
+      <Contact />
       <Subscribe />
       <CodeRed />
       <Footer />

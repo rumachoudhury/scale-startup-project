@@ -333,24 +333,27 @@ const Struggling = () => {
             src="/Circle2.webp"
           />
         </div>
-        <div className="flex  items-center justify-center lg:justify-start">
-          <button className="mt-4 bg-[#375EFB] hover:bg-blue-700 text-white font-semibold py-3 px-6  shadow-lg transition duration-300  flex  items-center justify-center lg:justify-start gap-2 rounded-2xl">
-            <motion.div
-              className="flex  items-center justify-center lg:justify-start gap-2"
-              animate={{
-                x: [0, 3, 0, -3, 0], //moving left and right
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            >
-              <ArrowRight className="w-4 h-4 text-white border border-b-amber-50 rounded-full" />
-              <span>Steal Our Codebase</span>
-            </motion.div>
-          </button>
-        </div>
+
+        <a href="#contact">
+          <div className="flex  items-center justify-center lg:justify-start">
+            <button className="mt-4 bg-[#375EFB] hover:bg-blue-700 text-white font-semibold py-3 px-6  shadow-lg transition duration-300  flex  items-center justify-center lg:justify-start gap-2 rounded-2xl cursor-pointer">
+              <motion.div
+                className="flex  items-center justify-center lg:justify-start gap-2"
+                animate={{
+                  x: [0, 3, 0, -3, 0], //moving left and right
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <ArrowRight className="w-4 h-4 text-white border border-b-amber-50 rounded-full" />
+                <span>Steal Our Codebase</span>
+              </motion.div>
+            </button>
+          </div>
+        </a>
       </div>
     </section>
   );

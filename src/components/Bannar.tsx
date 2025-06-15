@@ -53,15 +53,6 @@ function Bannar() {
         </div>
       </div>
 
-      {/* Right Side: Video */}
-      {/* <div className="w-full max-w-2xl h-full">
-        <iframe
-          src="https://player.vimeo.com/video/1069751828?h=d7615b1781"
-          className="aspect-video h-full w-full rounded-md object-cover sm:h-[500px]"
-          allowFullScreen
-        ></iframe>
-      </div> */}
-
       <div className="relative w-full max-w-2xl h-full z-10">
         {/* Video */}
         <iframe
