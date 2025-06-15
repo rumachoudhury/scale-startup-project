@@ -22,19 +22,19 @@ export default function WhatWeDeliver() {
           >
             <path
               d="M14.6668 7.99996C14.6668 4.31806 11.6821 1.33329 8.00016 1.33329C4.31826 1.33329 1.3335 4.31806 1.3335 7.99996C1.3335 11.6819 4.31826 14.6666 8.00016 14.6666C11.6821 14.6666 14.6668 11.6819 14.6668 7.99996Z"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
             <path
               d="M5.6665 8L9.6665 8"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
             <path
               d="M8.3335 10L10.3335 8L8.3335 6"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
@@ -106,9 +106,9 @@ export default function WhatWeDeliver() {
                   id="Vector_4"
                   d="M55.8402 152.467C86.1276 152.467 110.68 127.915 110.68 97.6272C110.68 67.3398 86.1276 42.787 55.8402 42.787C25.5528 42.787 1 67.3398 1 97.6272C1 127.915 25.5528 152.467 55.8402 152.467Z"
                   stroke="white"
-                  stroke-opacity="0.1"
-                  stroke-width="2"
-                  stroke-miterlimit="10"
+                  strokeOpacity="0.1"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
                   stroke-linecap="round"
                 ></path>
               </g>

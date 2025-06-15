@@ -21,6 +21,17 @@ module.exports = {
 
         card: "var(--card)",
         "card-foreground": "var(--card-foreground)",
+
+        destructive: "hsl(var(--destructive))",
+        "destructive-foreground": "hsl(var(--destructive-foreground))",
+        muted: "hsl(var(--muted))",
+        "muted-foreground": "hsl(var(--muted-foreground))",
+        accent: "hsl(var(--accent))",
+        "accent-foreground": "hsl(var(--accent-foreground))",
+        popover: "hsl(var(--popover))",
+        "popover-foreground": "hsl(var(--popover-foreground))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
       },
       keyframes: {
         shake: {

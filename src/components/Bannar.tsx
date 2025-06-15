@@ -47,11 +47,20 @@ function Bannar() {
         </p>
         <div className="flex  items-center justify-center lg:justify-start">
           <button className="mt-4 bg-[#F05B2D] hover:bg-blue-700 text-white font-semibold py-3 px-6  shadow-lg transition duration-300  flex  items-center justify-center lg:justify-start gap-2 rounded-2xl">
-            <ArrowRight className="w-4 h-4 text-white border border-b-amber-50 rounded-full" />
+            <ArrowRight className="w-4 h-4 text-white border border-amber-50 rounded-full" />
             <span>Scale 10X Faster</span>
           </button>
         </div>
       </div>
+
+      {/* Right Side: Video */}
+      {/* <div className="w-full max-w-2xl h-full">
+        <iframe
+          src="https://player.vimeo.com/video/1069751828?h=d7615b1781"
+          className="aspect-video h-full w-full rounded-md object-cover sm:h-[500px]"
+          allowFullScreen
+        ></iframe>
+      </div> */}
 
       <div className="relative w-full max-w-2xl h-full z-10">
         {/* Video */}

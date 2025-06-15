@@ -1,8 +1,12 @@
 import Image from "next/image";
+import { id } from "../../node_modules/date-fns/locale/id";
 
 const WhyScaleStartups = () => {
   return (
-    <section className="bg-[#FCFAF2] py-6 lg:py-14" id="choose max-w-[1400px]">
+    <section
+      id="WhyScaleStartups"
+      className="bg-[#FCFAF2] py-6 lg:py-14 max-w-[1400px]"
+    >
       <div className="mx-auto">
         <div className="mx-auto grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10 px-6">
           {/* Left Image */}

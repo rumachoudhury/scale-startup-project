@@ -17,7 +17,10 @@ import MongoDB from "@/app/svg/MONGODB/page";
 
 function GreatProducts() {
   return (
-    <main className="relative w-full h-[1500px] overflow-hidden bg-[#0431C2]  ">
+    <main
+      id="GreatProducts"
+      className="relative w-full h-[1500px] overflow-hidden bg-[#0431C2]  "
+    >
       {/* top section */}
       <section className="relative bg-[#0431C2] py-14">
         {/* SVG Background */}

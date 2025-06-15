@@ -55,7 +55,11 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div className="relative bg-[#0431C2] py-6 lg:py-14" style={{ opacity: 1 }}>
+    <div
+      id="OurServices"
+      className="relative bg-[#0431C2] py-6 lg:py-14"
+      style={{ opacity: 1 }}
+    >
       {/* top svg  */}
       <motion.div
         className="absolute  left-50 top-6 sm:left-10 sm:top-10"
@@ -80,11 +84,11 @@ const OurServices = () => {
           className="h-[70px] w-[70px] lg:h-[160px] lg:w-[160px] mb-6 mr-8 "
         >
           <path
-            fillRrule="evenodd"
+            fillRule="evenodd"
             clipRule="evenodd"
             d="M158.994 79.4941C158.994 79.4941 159.937 42.9639 137.986 21.0135C116.036 -0.936548 79.5059 0.00589382 79.5059 0.00589382C79.5059 0.00589382 79.5007 0.194045 79.5 0.551353C79.5 0.40045 79.4985 0.279727 79.4978 0.190584C79.4963 0.0686843 79.4941 0.00589382 79.4941 0.00589382C79.4941 0.00589382 42.9639 -0.936548 21.0135 21.0135C-0.936548 42.9639 0.00589382 79.4941 0.00589382 79.4941C0.00589382 79.4941 36.5365 80.4363 58.4862 58.4862C78.5497 38.4236 79.4875 6.17973 79.5 0.783522C79.5132 6.17973 80.451 38.4236 100.514 58.4862C122.464 80.4363 158.994 79.4941 158.994 79.4941ZM21.0135 137.986C-0.936548 116.036 0.00589382 79.5059 0.00589382 79.5059C0.00589382 79.5059 36.5365 78.5637 58.4862 100.514C78.5497 120.576 79.4875 152.82 79.5 158.217C79.5132 152.82 80.451 120.576 100.514 100.514C122.464 78.5637 158.994 79.5059 158.994 79.5059C158.994 79.5059 159.937 116.036 137.986 137.986C116.036 159.936 79.5059 158.994 79.5059 158.994C79.5059 158.994 79.5007 158.806 79.5 158.449C79.4993 158.806 79.4941 158.994 79.4941 158.994C79.4941 158.994 42.9639 159.936 21.0135 137.986Z"
             fill="#FFDB86"
-            fill-opacity="0.2"
+            fillOpacity="0.2"
           />
         </svg>
       </motion.div>
@@ -106,7 +110,7 @@ const OurServices = () => {
               <Image
                 src="/service-icon1.webp"
                 alt="Launch Your Branded Empire"
-                width={71} // Provide width/height for optimization
+                width={71}
                 height={71}
                 className="h-[41px] w-[41px] lg:h-[71px] lg:w-[71px] object-cover"
               />
@@ -158,7 +162,7 @@ const OurServices = () => {
             <div className="flex flex-col space-y-4 rounded-3xl border border-white border-opacity-70  bg-opacity-10 p-6 text-white sm:p-8 bg-[#2246C8]">
               <Image
                 src="/service-icon3.webp"
-                width={71} // Provide width/height for optimization
+                width={71}
                 height={71}
                 alt="Startup Growth Engine"
                 className="h-[41px] w-[41px] lg:h-[71px] lg:w-[71px] object-cover"
@@ -170,7 +174,7 @@ const OurServices = () => {
               </p>
               <Image
                 src="/service-image3.webp"
-                width={300} // Provide width/height for optimization
+                width={300}
                 height={300}
                 alt="Startup Growth Engine"
                 className="h-[160px] sm:h-[192px] w-full rounded-3xl object-cover"
@@ -183,7 +187,7 @@ const OurServices = () => {
             <div className="flex flex-col space-y-4 rounded-3xl border border-white border-opacity-70  bg-opacity-10 p-6 text-white sm:p-8 bg-[#2246C8]">
               <Image
                 src="/service-icon4.webp"
-                width={71} // Provide width/height for optimization
+                width={71}
                 height={71}
                 alt="Telematics Powerhouse"
                 className="h-[41px] w-[41px] lg:h-[71px] lg:w-[71px] object-cover"
@@ -195,7 +199,7 @@ const OurServices = () => {
               </p>
               <Image
                 src="/service-image4.webp"
-                width={300} // Provide width/height for optimization
+                width={300}
                 height={300}
                 alt="Telematics Powerhouse"
                 className="h-[160px] sm:h-[192px] w-full rounded-3xl object-cover"
@@ -208,7 +212,7 @@ const OurServices = () => {
             <div className="flex flex-col space-y-4 rounded-3xl border border-white border-opacity-70  bg-opacity-10 p-6 text-white sm:p-8 bg-[#2246C8]">
               <Image
                 src="/service-icon5.webp"
-                width={71} // Provide width/height for optimization
+                width={71}
                 height={71}
                 alt="Equity-Free Scale Stack"
                 className="h-[41px] w-[41px] lg:h-[71px] lg:w-[71px] object-cover"
@@ -220,7 +224,7 @@ const OurServices = () => {
               </p>
               <Image
                 src="/service-image5.webp"
-                width={300} // Provide width/height for optimization
+                width={300}
                 height={300}
                 alt="Equity-Free Scale Stack"
                 className="h-[160px] sm:h-[192px] w-full rounded-3xl object-cover"
@@ -233,7 +237,7 @@ const OurServices = () => {
             <div className="flex flex-col space-y-4 rounded-3xl border border-white border-opacity-70  bg-opacity-10 p-6 text-white sm:p-8 bg-[#2246C8]">
               <Image
                 src="/service-icon6.webp"
-                width={71} // Provide width/height for optimization
+                width={71}
                 height={71}
                 alt="Unlimited Scale Support"
                 className="h-[41px] w-[41px] lg:h-[71px] lg:w-[71px] object-cover"

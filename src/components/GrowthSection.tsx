@@ -138,42 +138,42 @@ export default function GrowthSection() {
               <path
                 d="M11.75 28H19.25C25.5 28 28 25.5 28 19.25V11.75C28 5.5 25.5 3 19.25 3H11.75C5.5 3 3 5.5 3 11.75V19.25C3 25.5 5.5 28 11.75 28Z"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M23 10.1875V18.625C23 17.25 21.875 16.125 20.5 16.125H10.5C9.125 16.125 8 17.25 8 18.625V10.1875C8 8.8125 9.125 7.6875 10.5 7.6875H20.5C21.875 7.6875 23 8.8125 23 10.1875Z"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M24.25 20.1875H23"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M8 20.1875H6.75"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M23 18V14.25C23 12.875 21.875 11.75 20.5 11.75H10.5C9.125 11.75 8 12.875 8 14.25V18"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M23 18.625V20.1875H18.625C18.625 21.9125 17.225 23.3125 15.5 23.3125C13.775 23.3125 12.375 21.9125 12.375 20.1875H8V18.625C8 17.25 9.125 16.125 10.5 16.125H20.5C21.875 16.125 23 17.25 23 18.625Z"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -206,56 +206,56 @@ export default function GrowthSection() {
               <path
                 d="M19.8875 4.03751H11.1125C8 4.03751 7.3125 5.58751 6.9125 7.48751L5.5 14.25H25.5L24.0875 7.48751C23.6875 5.58751 23 4.03751 19.8875 4.03751Z"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M27.9879 25.275C28.1254 26.7375 26.9504 28 25.4504 28H23.1004C21.7504 28 21.5629 27.425 21.3254 26.7125L21.0754 25.9625C20.7254 24.9375 20.5004 24.25 18.7004 24.25H12.3004C10.5004 24.25 10.2379 25.025 9.9254 25.9625L9.6754 26.7125C9.4379 27.425 9.2504 28 7.9004 28H5.5504C4.0504 28 2.8754 26.7375 3.0129 25.275L3.7129 17.6625C3.8879 15.7875 4.2504 14.25 7.5254 14.25H23.4754C26.7504 14.25 27.1129 15.7875 27.2879 17.6625L27.9879 25.275Z"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M5.5 10.5H4.25"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M26.75 10.5H25.5"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M15.5 4.25V6.75"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M13.625 6.75H17.375"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M8 19.25H11.75"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
                 d="M19.25 19.25H23"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />

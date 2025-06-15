@@ -38,8 +38,8 @@ export default function RoadmapSVG() {
             y2="105"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="0.917117" stop-color="#5356FF"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="0.917117" stopColor="#5356FF"></stop>
           </linearGradient>
           <linearGradient
             id="paint1_linear_564_3153"
@@ -49,8 +49,8 @@ export default function RoadmapSVG() {
             y2="105"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="0.917117" stop-color="#5356FF"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="0.917117" stopColor="#5356FF"></stop>
           </linearGradient>
           <linearGradient
             id="paint2_linear_564_3153"
@@ -60,8 +60,8 @@ export default function RoadmapSVG() {
             y2="105.088"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="0.917117" stop-color="#5356FF"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="0.917117" stopColor="#5356FF"></stop>
           </linearGradient>
           <linearGradient
             id="paint3_linear_564_3153"
@@ -71,8 +71,8 @@ export default function RoadmapSVG() {
             y2="104.912"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="0.917117" stop-color="#5356FF"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="0.917117" stopColor="#5356FF"></stop>
           </linearGradient>
         </defs>
       </svg>

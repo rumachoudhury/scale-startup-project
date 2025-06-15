@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function Roadmap() {
   return (
-    <section className="relative overflow-hidden bg-[#0431C2] py-6 pb-16 lg:py-14">
+    <section className="relative overflow-hidden bg-[#0431C2] py-6 pb-16 lg:py-20">
       <motion.div
         className="absolute bottom-10 left-5 "
         initial={{ rotate: 71.712 }}
@@ -45,7 +45,7 @@ function Roadmap() {
             <p>✅ A proven tech stack blueprint</p>
             <p>✅ 500 guaranteed leads/month strategy</p>
           </div>
-          {/* <a href=""></a> */}
+
           <a href="#contact">
             {" "}
             <button className="items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-tertiary text-white transition-all active:scale-95 buttonHover px-4 py-2 gap-1.5 rounded-lg text-xs font-semibold lg:px-6 lg:py-3 lg:gap-1.5 lg:text-sm lg:rounded-xl hidden lg:flex bg-[#F05B2D] cursor-pointer">
