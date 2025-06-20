@@ -184,8 +184,8 @@ export default function GrowthSection() {
           </h3>
           <p className="subPara mt-2">
             Software That Scales Like a Unicorn — Built by Engineers From
-            Google, Meta, AWS. From MVP to millions of users, our code doesn't
-            crack under pressure.
+            Google, Meta, AWS. From MVP to millions of users, our code
+            doesn&#39;t crack under pressure.
           </p>
           <p className="mt-2 text-sm font-semibold">
             💡 Used by Fortune 500 CTOs

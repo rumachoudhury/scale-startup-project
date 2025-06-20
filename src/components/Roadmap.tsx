@@ -39,8 +39,8 @@ function Roadmap() {
             Your $1M Roadmap Call
           </h3>
           <div className="para space-y-1 !text-white">
-            "Free 15-Minute 'Profit Explosion' Session: We'll Map Your 12-Month
-            Path to 7 Figures. Leave with:"
+            Free 15-Minute &#39;Profit Explosion&#39; Session: We&#39;ll Map
+            Your 12-Month Path to 7 Figures. Leave with:&quot;
             <p>✅ 3 competitor weaknesses to exploit</p>
             <p>✅ A proven tech stack blueprint</p>
             <p>✅ 500 guaranteed leads/month strategy</p>

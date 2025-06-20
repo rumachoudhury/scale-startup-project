@@ -1,5 +1,5 @@
 import CrisesToCashSVG from "@/app/svg/CrisesToCash/page";
-import { ArrowRight } from "lucide-react";
+// import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export default function CrisesToCash() {

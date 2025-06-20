@@ -14,9 +14,9 @@ export default function CashAcceleration() {
               Code + Cash Acceleration
             </h3>
             <p className="max-w-2xl">
-              "We Fund Your Dev Costs — Pay 0 Until You Hit Production
+              &quot;We Fund Your Dev Costs — Pay 0 Until You Hit Production
               Founder-friendly terms. No licenses. No equity grabs. Just a
-              signed NDA and your napkin sketch"
+              signed NDA and your napkin sketch&quot;
             </p>
             <a
               className="z-30 flex justify-center lg:justify-start"

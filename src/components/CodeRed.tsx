@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function CodeRed() {
   return (
@@ -109,7 +110,7 @@ export default function CodeRed() {
                 <AccordionTrigger className="group flex w-full justify-between items-center p-3 text-left text-xl font-medium sm:p-5 sm:text-lg  group-data-[state=open]:border-none group-data-[state=open]:text-white no-underline hover:no-underline ">
                   <span className="font-bold text-xl">04.</span>
                   <span className="text-md text-left sm:text-xl">
-                    What's Your Secret Sauce to Crush Competitors?
+                    What&#39;s Your Secret Sauce to Crush Competitors?
                   </span>
                   <span className="ml-4 flex h-7 w-7 items-center justify-center rounded-full border border-black group-data-[state=open]:border-white text-gray-700 text-lg font-bold transition-colors group-data-[state=open]:bg-blue-600 group-data-[state=open]:text-white">
                     <span className="block group-data-[state=closed]:inline group-data-[state=open]:hidden">
@@ -122,7 +123,7 @@ export default function CodeRed() {
                 </AccordionTrigger>
                 <AccordionContent className="px-4 pb-4 text-sm text-gray-700 group-data-[state=open]:text-white">
                   AI-Powered Telematics, Serverless Architecture & Explosive
-                  Modules We've Built for 237 Startups.
+                  Modules We&#39;ve Built for 237 Startups.
                 </AccordionContent>
               </AccordionItem>
 
@@ -167,7 +168,7 @@ export default function CodeRed() {
             }}
           >
             <div style={{ transform: "none" }}>
-              <img
+              <Image
                 alt="Help Image"
                 width={250}
                 height={250}
@@ -185,7 +186,7 @@ export default function CodeRed() {
               transform: "none",
             }}
           >
-            Code Red? Scaling Panic? We've Got Your
+            Code Red? Scaling Panic? We&#39;ve Got Your
             <br /> Back
           </h3>
 

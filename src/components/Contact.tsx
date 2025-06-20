@@ -1,7 +1,7 @@
 "use client";
 
-import { Calendar, Check } from "lucide-react";
-import React, { useState, useEffect } from "react";
+import { Calendar } from "lucide-react";
+import React, { useState } from "react";
 // import { useRouter } from "next/navigation";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -145,7 +145,7 @@ function Contact() {
                     const input = document.querySelector(
                       "input[placeholder='Select date and time']"
                     );
-                    input?.focus();
+                    (input as HTMLInputElement)?.focus();
                   }}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-black dark:text-gray-400 dark:hover:text-white"
                   aria-label="Toggle calendar"

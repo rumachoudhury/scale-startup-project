@@ -2,6 +2,7 @@ import FooterSVG1 from "@/app/svg/Footer/page1";
 import FooterSVG2 from "@/app/svg/Footer/page2";
 import FooterSVG3 from "@/app/svg/Footer/page3";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -26,7 +27,7 @@ export default function Footer() {
             <div className="mx-auto grid grid-cols-2 space-y-10 py-8 text-left md:grid-cols-4 lg:py-14 lg:pb-28 ">
               <div className="col-span-2 mr-8 md:col-span-1">
                 <div className="mx-auto mt-8 w-full space-y-6">
-                  <a href="/" className="block">
+                  {/* <a href="/" className="block">
                     <Image
                       alt="scalestartup Logo"
                       src="logo.svg"
@@ -35,7 +36,18 @@ export default function Footer() {
                       className="h-auto w-full object-cover"
                       priority
                     />
-                  </a>
+                    
+                  </a> */}
+                  <Link href="/" className="block">
+                    <Image
+                      alt="scalestartup Logo"
+                      src="/logo.svg"
+                      width={300}
+                      height={300}
+                      className="h-auto w-full object-cover"
+                      priority
+                    />
+                  </Link>
                   <p className="font-light leading-7 tracking-wider text-white opacity-80">
                     Delivering innovative tech solutions to empower businesses
                     worldwide.
