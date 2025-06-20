@@ -40,7 +40,7 @@ export default function HyperGrowth() {
               transform: "none",
             }}
           >
-            ScaleStartups' Hyper-Growth Arsenal
+            ScaleStartups&#39; Hyper-Growth Arsenal
           </h2>
 
           <p
@@ -269,8 +269,8 @@ export default function HyperGrowth() {
               className="mt-4 text-xs font-semibold opacity-70 lg:text-base"
               style={{ opacity: 0.7, willChange: "opacity;" }}
             >
-              "Own Your Empire — Zero Royalties, Forever. 100% owned SaaS/CRM
-              platforms. We build, you scale. Pay 0 until you hit 1M ARR"
+              Own Your Empire — Zero Royalties, Forever. 100% owned SaaS/CRM
+              platforms. We build, you scale. Pay 0 until you hit 1M ARR&quot;
             </p>
           </motion.div>
         </div>

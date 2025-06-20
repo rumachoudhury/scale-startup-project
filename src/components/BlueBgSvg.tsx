@@ -12,7 +12,7 @@ type CounterProps = {
 function Counter({ endValue, suffix, label, svg }: CounterProps) {
   const [count, setCount] = useState(0);
   // const [hasAnimated, setHasAnimated] = useState(false);
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.3,
   });

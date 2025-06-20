@@ -125,27 +125,27 @@ export default function WhatWeDeliver() {
           What We Actually Deliver
         </h2>
         <p className="text-md font-semibold text-headText lg:text-xl">
-          Startup-Grade 'Unfair Advantages'
+          Startup-Grade &apos;Unfair Advantages&apos;
         </p>
         <div className="max-w-[600px] space-y-1">
           <p>
-            "✅ 7-Day Launch Protocol “Steal our pre-built AI/telematics modules
-            — launch enterprise-grade apps 3X faster than competitors.”
+            &quot;✅ 7-Day Launch Protocol “Steal our pre-built AI/telematics
+            modules — launch enterprise-grade apps 3X faster than competitors.”
           </p>
           <br />
           <p>
-            "✅ 100% IP Ownership “We code, you keep every line. No licenses, no
-            equity grabs, no vendor lock-in.”
+            &quot;✅ 100% IP Ownership “We code, you keep every line. No
+            licenses, no equity grabs, no vendor lock-in.”
           </p>
           <br />
           <p>
-            "✅ Code + Customers “We don't stop at dev. Get 500 pre-qualified
-            leads in your CRM before launch day.”
+            &quot;✅ Code + Customers “We don&apos;t stop at dev. Get 500
+            pre-qualified leads in your CRM before launch day.”
           </p>
           <br />
           <p>
-            "✅ Scale or We Sprint Again “Guaranteed 2X user growth in 90 days —
-            or we rebuild your stack for free.”
+            &quot;✅ Scale or We Sprint Again “Guaranteed 2X user growth in 90
+            days — or we rebuild your stack for free.”
           </p>
         </div>
 

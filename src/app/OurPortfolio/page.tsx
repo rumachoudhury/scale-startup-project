@@ -1,4 +1,4 @@
-import Portfolio from "@/components/Portfolio";
+// import Portfolio from "@/components/Portfolio";
 import PortfolioSVG1 from "../svg/Portfolio/page1";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";

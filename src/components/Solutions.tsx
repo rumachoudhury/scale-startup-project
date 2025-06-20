@@ -19,7 +19,7 @@ const Solutions = () => {
           </h3>
           <p className="sm:text-md mx-auto my-4 max-w-2xl text-sm font-light text-white opacity-90 sm:my-6 lg:mx-0 lg:text-lg">
             <span className="font-semibold text-white opacity-100">
-              Launch Your 'Own' Software in 30 Days, 100% Your Brand.
+              Launch Your &#39;Own&#39; Software in 30 Days, 100% Your Brand.
             </span>
             <br />
             Skip the 2-year dev cycle. We build, you brand. Own scalable SaaS,
@@ -103,9 +103,9 @@ const Solutions = () => {
                 transform: "none",
               }}
             >
-              We Code. You Sell. We Fill Your Pipeline — or We Don't Get Paid.
-              Your growth team: Lead gen, conversion funnels, and automation
-              baked into your software.
+              We Code. You Sell. We Fill Your Pipeline — or We Don&#39;t Get
+              Paid. Your growth team: Lead gen, conversion funnels, and
+              automation baked into your software.
             </p>
           </div>
 

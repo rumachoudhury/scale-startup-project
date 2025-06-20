@@ -96,9 +96,10 @@ export default function StartupDomination() {
               Code Blueprint in 20 Minutes
             </h3>
             <p className=" max-w-2xl">
-              "Skip the 6-Month Wait — Steal Our Pre-Built Tech Stack & Launch
-              Your MVP in 7 Days.” 100% owned codebase. Zero equity. We handle
-              servers, AI modules, and crisis scaling — you keep the profits."
+              &quot;Skip the 6-Month Wait — Steal Our Pre-Built Tech Stack &amp;
+              Launch Your MVP in 7 Days.&rdquo; 100% owned codebase. Zero
+              equity. We handle servers, AI modules, and crisis scaling — you
+              keep the profits.&quot;
             </p>
             <a href="#contact">
               <button className="inline-flex items-center justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#375EFB] text-white transition-all active:scale-95 buttonHover px-4 py-2 gap-1.5 rounded-lg text-xs font-semibold lg:px-6 lg:py-3 lg:gap-1.5 lg:text-sm lg:rounded-xl">
