@@ -307,7 +307,7 @@ const WorkProcess: React.FC = () => {
 
   return (
     <section className="py-12">
-      <h2 className="mb-10 text-center text-5xl text-black font-bold">
+      <h2 className="mb-10 text-center text-4xl lg:text-5xl text-black font-bold">
         Our Work Process Framework
       </h2>
       <div className="relative overflow-hidden px-4">
@@ -360,12 +360,6 @@ const WorkProcess: React.FC = () => {
             z-20
           "
         >
-          {/* <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
-            <path
-              d="M6.85 3.85C7.05 3.66 7.05 3.34 6.85 3.15C6.66 2.95 6.34 2.95 6.15 3.15L2.15 7.15C1.95 7.34 1.95 7.66 2.15 7.85L6.15 11.85C6.34 12.05 6.66 12.05 6.85 11.85C7.05 11.66 7.05 11.34 6.85 11.15L3.2 7.5L6.85 3.85Z"
-              fill="currentColor"
-            />
-          </svg> */}
           &laquo;
         </button>
 
@@ -385,12 +379,6 @@ const WorkProcess: React.FC = () => {
             z-20 
           "
         >
-          {/* <svg width="15" height="15" viewBox="0 0 15 15" fill="none">
-            <path
-              d="M2.15 11.15C1.95 11.34 1.95 11.66 2.15 11.85C2.34 12.05 2.66 12.05 2.85 11.85L6.85 7.85C7.05 7.66 7.05 7.34 6.85 7.15L2.85 3.15C2.66 2.95 2.34 2.95 2.15 3.15C1.95 3.34 1.95 3.66 2.15 3.85L5.8 7.5L2.15 11.15Z"
-              fill="currentColor"
-            />
-          </svg> */}
           &raquo;
         </button>
       </div>

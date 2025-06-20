@@ -5,12 +5,28 @@ import Image from "next/image";
 export default function Portfolio() {
   return (
     <div id="portfolio" className="py-6 lg:py-14 bg-[#FCFAF2]">
-      <div className="flex items-center justify-between">
-        <p className="bg-[#FEE19B] text-md text-black text-cecter font-bold mx-4 px-6 py-1 rounded-full">
+      {/* <div className="flex items-center justify-between">
+        <p className="bg-[#FEE19B] text-md text-black text-cecter font-bold mx-4 px-4 lg:px-6 py-1 rounded-full">
           Our Project
         </p>
+      </div> */}
+
+      {/* Row for small screen only */}
+      <div className="flex justify-between w-full items-center px-4">
+        {/* Our Project badge */}
+        <p className="bg-[#FEE19B] text-md text-black font-bold px-4 py-1 rounded-full">
+          Our Project
+        </p>
+        {/* See More button lg:hidden */}
+        <a href="/OurPortfolio">
+          <button className="inline-flex lg:hidden items-center gap-2 whitespace-nowrap bg-[#F05B2D] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[#d14f25] transition-all">
+            <ArrowRight className="w-4 h-4 border rounded-full" />
+            See More
+          </button>
+        </a>
       </div>
-      <div className="text-black text-5xl text-left ml-4 mt-6 font-bold">
+
+      <div className="text-black text-2xl lg:text-5xl  text-center   ml-4 mt-6 font-bold">
         <h2>Discover Our Portfolio</h2>
       </div>
       <div
@@ -25,16 +41,18 @@ export default function Portfolio() {
         }}
       >
         {/* <!-- Tab: All --> */}
-        <button
-          role="tab"
-          aria-selected="true"
-          aria-controls="tab-content-all"
-          id="tab-trigger-all"
-          className="inline-flex items-center justify-center px-8 py-2 rounded-md text-sm font-bold text-white bg-[#375EFB] shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 transition-all"
-          data-state="active"
-        >
-          All
-        </button>
+        <a className="lg:block" href="#portfolio">
+          <button
+            role="tab"
+            aria-selected="true"
+            aria-controls="tab-content-all"
+            id="tab-trigger-all"
+            className=" text-blue-500 bg-white ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center rounded-md text-sm font-bold text-tertiary transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-blue-600 data-[state=active]:text-white data-[state=active]:shadow dark:text-white whitespace-nowrap px-8 py-2"
+            data-state="active"
+          >
+            All
+          </button>
+        </a>
 
         {/* <!-- Tab: Web App Development --> */}
         <button
@@ -42,7 +60,7 @@ export default function Portfolio() {
           aria-selected="false"
           aria-controls="tab-content-web"
           id="tab-trigger-web"
-          className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className="lg:block inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           data-state="inactive"
         >
           Web App Development
@@ -54,7 +72,7 @@ export default function Portfolio() {
           aria-selected="false"
           aria-controls="tab-content-mobile"
           id="tab-trigger-mobile"
-          className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className="hidden   lg:inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           data-state="inactive"
         >
           Mobile App Development
@@ -66,7 +84,7 @@ export default function Portfolio() {
           aria-selected="false"
           aria-controls="tab-content-desktop"
           id="tab-trigger-desktop"
-          className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className="hidden lg:inline-flex  items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           data-state="inactive"
         >
           Desktop Development
@@ -78,7 +96,7 @@ export default function Portfolio() {
           aria-selected="false"
           aria-controls="tab-content-seo"
           id="tab-trigger-seo"
-          className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className=" hidden lg:inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           data-state="inactive"
         >
           SEO
@@ -90,19 +108,18 @@ export default function Portfolio() {
           aria-selected="false"
           aria-controls="tab-content-cloudops"
           id="tab-trigger-cloudops"
-          className="inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          className="hidden lg:inline-flex  items-center justify-center px-4 py-2 rounded-md text-sm font-bold text-[#375EFB] dark:text-white transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           data-state="inactive"
         >
           CloudOps Consultancy
         </button>
       </div>
 
-      <a
-        href="/OurPortfolio"
-        className="inline-flex items-center justify-end gap-2 rounded-lg bg-[#F05B2D] px-6 py-2 text-white text-base font-semibold hover:bg-[#d14f25] transition-colors ml-60"
-      >
-        <ArrowRight className="w-4 h-4 rounded-full border  " />
-        See More
+      <a href="/OurPortfolio">
+        <button className=" hidden lg:inline-flex items-center justify-center  whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#F05B2D] text-white transition-all active:scale-95 buttonHover px-4 py-2 gap-1.5 rounded-lg text-xs font-semibold lg:px-6 lg:py-3 lg:gap-1.5 lg:text-sm lg:rounded-xl  cursor-pointer lg:ml-60 sm">
+          <ArrowRight className="w-4 h-4 rounded-full border" />
+          See More
+        </button>
       </a>
 
       {/* card section */}

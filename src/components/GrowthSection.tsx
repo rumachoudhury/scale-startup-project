@@ -6,7 +6,7 @@ export default function GrowthSection() {
         We Fuel Startup Hyper-Growth
       </h2>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mx-auto max-w-[1350px] ">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4  w-full px-6 ">
         {/* Card 1 */}
         <div className="buttonHover rounded-lg  p-6 shadow-md sm:p-8 bg-[#F8C3F0] ">
           <div className="max-w-min rounded-full  p-3  bg-[#E73CE7]">
@@ -113,9 +113,9 @@ export default function GrowthSection() {
             Growth-Backed Guarantee
           </h3>
           <p className="subPara mt-2">
-            Scale to $1M ARR or We Work for Free.” We don't just code — we embed
-            proven growth hacks into your tech. Fail to scale? Get a 100% refund
-            + free crisis sprints.
+            Scale to $1M ARR or We Work for Free.” We don&#39;t just code — we
+            embed proven growth hacks into your tech. Fail to scale? Get a 100%
+            refund + free crisis sprints.
           </p>
           <p className="mt-2 text-sm font-semibold">
             🚀 Guarantee applies to first 50 clients
@@ -266,7 +266,7 @@ export default function GrowthSection() {
           </h3>
           <p className="subPara mt-2">
             From Zero to Hero — Tech, UI, DevOps, QA, SEO & Growth. One team.
-            One mission: your startup's success.
+            One mission: your startup&#39;s success.
           </p>
           <p className="mt-2 text-sm font-semibold">
             📦 Everything Done-for-You

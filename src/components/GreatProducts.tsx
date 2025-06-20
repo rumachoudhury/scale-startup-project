@@ -19,7 +19,7 @@ function GreatProducts() {
   return (
     <main
       id="GreatProducts"
-      className="relative w-full h-[1500px] overflow-hidden bg-[#0431C2]  "
+      className="relative w-full min-h-screen overflow-hidden bg-[#0431C2] py-20 "
     >
       {/* top section */}
       <section className="relative bg-[#0431C2] py-14">

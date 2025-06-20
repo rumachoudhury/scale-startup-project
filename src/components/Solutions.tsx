@@ -2,8 +2,11 @@ import React from "react";
 
 const Solutions = () => {
   return (
-    <section id="Solutions" className="bg-[#0431C2] text-white py-20 px-6">
-      <div className="max-w-7xl mx-auto text-center mb-16">
+    <section
+      id="Solutions"
+      className="bg-[#0431C2] text-white py-20 px-6 sm:py-0"
+    >
+      <div className="lg:-w-7xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold">Our Core Solutions</h2>
       </div>
 

@@ -6,7 +6,7 @@ import AutopilotModeSVG from "@/app/svg/AutopilotMode/page";
 function AutopilotMode() {
   return (
     <section className="relative overflow-hidden bg-[#FFFFFF] py-6 md:py-16  mt-6">
-      <div className="myContainer mx-auto flex flex-col items-center justify-between gap-10 lg:flex-row">
+      <div className=" mx-auto flex flex-col items-center justify-between gap-10 lg:flex-row">
         <div className="z-30 w-full space-y-6 lg:w-1/2 lg:px-0 mx-4">
           <h3 className="max-w-xl text-2xl font-bold lg:text-4xl">
             Profit Autopilot Mode

@@ -4,12 +4,16 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
 import { motion } from "framer-motion";
 import BlueImage from "./BlueImage";
+import Image from "next/image";
 
 const Struggling = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between gap-8 px-6 py-20 bg-gradient-to-r from-[#FCEAF2] to-[#FEFAF2]">
+    <section className="flex lg:flex-row items-center justify-between gap-8 px-6 py-20 bg-gradient-to-r from-[#FCEAF2] to-[#FEFAF2]  z-20  flex-col-reverse">
       {/* LEFT SIDE with images */}
-      <div className="relative flex justify-center items-center h-[600px] w-full">
+      <div
+        // className="relative flex justify-center items-center h-[600px] w-full "
+        className="relative hidden lg:flex justify-center items-center h-[600px] w-full"
+      >
         {/* Left Top Image behind the middle image */}
         <motion.div
           className="absolute left-[15%] top-[-10%] z-0  "
@@ -25,12 +29,14 @@ const Struggling = () => {
         >
           <div className="relative h-[35vw] max-h-[246px] w-[40vw] max-w-[211px] rounded-[248px] border-2 border-tertiary border-blue-500 p-2 lg:border-4 lg:p-3 bg-white shadow-lg  transition-transform duration-700 hover:scale-110">
             <div className="relative h-full w-full overflow-hidden rounded-[248px]">
-              <img
+              <Image
                 alt="Left Top"
                 loading="lazy"
                 decoding="async"
-                className="object-cover  "
+                className="object-cover"
                 src="/left-top.webp"
+                width={500}
+                height={500}
                 style={{
                   position: "absolute",
                   height: "100%",
@@ -57,10 +63,12 @@ const Struggling = () => {
         >
           <div className="relative h-[30vw] max-h-[210px] w-[35vw] max-w-[180px] rounded-[248px] border-4 border-blue-500 bg-white p-3 shadow-lg transition-transform duration-700 hover:scale-110">
             <div className="relative h-full w-full overflow-hidden ">
-              <img
+              <Image
                 alt="Left Bottom"
                 loading="lazy"
                 decoding="async"
+                width={500}
+                height={500}
                 className="object-cover rounded-[248px] "
                 src="/left-bottom.webp"
                 style={{
@@ -76,7 +84,7 @@ const Struggling = () => {
 
         {/* Right Bottom Image appear above the middle image */}
         <motion.div
-          className="absolute bottom-[10%] right-[10%] z-40  "
+          className="absolute bottom-[10%] right-[24%] z-40  "
           animate={{
             y: [0, -5, 0, 5, 0],
           }}
@@ -88,10 +96,12 @@ const Struggling = () => {
         >
           <div className="relative h-[30vw] max-h-[210px] w-[35vw] max-w-[180px] rounded-[248px] border-4 border-black bg-white p-3 shadow-md transition-transform duration-700 hover:scale-110">
             <div className="relative h-full w-full overflow-hidden rounded-[248px]">
-              <img
+              <Image
                 alt="Right Bottom"
                 loading="lazy"
                 decoding="async"
+                width={500} // 👈 Replace with actual width
+                height={500} // 👈 Replace with actual height
                 className="object-cover rounded-[248px]  "
                 src="/right-bottom.webp"
                 style={{
@@ -114,9 +124,11 @@ const Struggling = () => {
           >
             <div className="relative z-10 overflow-hidden h-[50vw] max-h-[500px] w-[80vw] max-w-[400px] rounded-[348px] border-4 border-red-500 bg-white p-3 transition-transform duration-700 hover:scale-110">
               <div className="relative h-full w-full overflow-hidden rounded-[300px] ">
-                <img
+                <Image
                   alt="techserve4u Hero"
                   className="object-cover rounded-[300px] "
+                  width={500}
+                  height={500}
                   src="/global-cart.webp"
                   style={{ height: "100%", width: "100%", objectFit: "cover" }}
                 />
@@ -170,9 +182,7 @@ const Struggling = () => {
 
             {/* Sharp SVG #2 — Slightly Below  One */}
             <motion.div
-              // className="absolute bottom-[0%] left-[90%] top-[5%] h-[30vw] max-h-[180px] w-[15vw] max-w-[55px] translate-x-[-50%] z-0"
-
-              className="absolute -right-[0%] top-[8%] h-[30vw] max-h-[180px] w-[15vw] max-w-[55px] z-0"
+              className="absolute bottom-[0%] left-[90%] top-[5%] h-[30vw] max-h-[180px] w-[15vw] max-w-[55px] translate-x-[-50%] z-0"
               animate={{
                 y: [0, -2, 2, 0],
                 //   rotate: [-5, 5, -5], // optional
@@ -215,7 +225,11 @@ const Struggling = () => {
       </div>
 
       {/* RIGHT SIDE - TEXT CONTENT */}
-      <div className="max-w-xl text-black space-y-6 z-10">
+      <div
+        // className="max-w-xl text-black space-y-6 z-10"
+        // className="max-w-xl text-black space-y-6 z-10"
+        className="space-y-4 pb-14 sm:pb-24 lg:space-y-6 lg:pb-2"
+      >
         <button className="text-sm font-bold border-0 py-2 px-4 bg-[#FEE19B] rounded-full">
           About Company
         </button>
@@ -224,8 +238,9 @@ const Struggling = () => {
           <br /> to $10M+ Revenue
         </p>
         <p>
-          ScaleStartups isn't just a vendor - we're your growth engineering
-          team. While others build stores, we architect revenue machines.
+          ScaleStartups isn&apos;t just a vendor - we&apos;re your growth
+          engineering team. While others build stores, we architect revenue
+          machines.
         </p>
         <ul className="list-none list-inside text-md text-gray-700  space-y-2">
           <li>✅ 8.7X average revenue growth in 6 months</li>
@@ -304,23 +319,24 @@ const Struggling = () => {
           {/* Text + Image */}
           <div className="relative z-10">
             <h5 className="subHeading text-2xl font-semibold">
-              Your 'Unfair' Growth Advantage
+              Your &apos;Unfair&apos; Growth Advantage
             </h5>
             <p className="subPara py-2">
-              We don't just code - we embed our 12 years of scaling secrets into{" "}
-              <br />
+              We don&apos;t just code - we embed our 12 years of scaling secrets
+              into <br />
               your tech stack. Steal playbooks from $100M+ brands.
             </p>
           </div>
 
           {/* Animated Image Floatting */}
           <motion.img
+            src="/Circle2.webp"
             alt="techserve4u Hero"
             loading="lazy"
             width={241}
             height={241}
             decoding="async"
-            className="h-[250px] w-[250px] absolute top-[-50px] left-[250px] object-contain z-0 opacity-100"
+            className="hidden md:block  h-[250px] w-[250px] absolute top-[-50px] left-[250px] object-contain z-0 opacity-100"
             animate={{
               scale: [1, 1.05, 1],
               rotate: [0, 360],
@@ -330,12 +346,12 @@ const Struggling = () => {
               repeat: Infinity,
               ease: "linear",
             }}
-            src="/Circle2.webp"
+            // src="/Circle2.webp"
           />
         </div>
 
         <a href="#contact">
-          <div className="flex  items-center justify-center lg:justify-start">
+          <div className="flex  items-center justify-center lg:justify-start md:mt-15">
             <button className="mt-4 bg-[#375EFB] hover:bg-blue-700 text-white font-semibold py-3 px-6  shadow-lg transition duration-300  flex  items-center justify-center lg:justify-start gap-2 rounded-2xl cursor-pointer">
               <motion.div
                 className="flex  items-center justify-center lg:justify-start gap-2"
@@ -349,7 +365,7 @@ const Struggling = () => {
                 }}
               >
                 <ArrowRight className="w-4 h-4 text-white border border-b-amber-50 rounded-full" />
-                <span>Steal Our Codebase</span>
+                <span className="">Steal Our Codebase</span>
               </motion.div>
             </button>
           </div>
@@ -360,5 +376,3 @@ const Struggling = () => {
 };
 
 export default Struggling;
-
-// transition-transform duration-700 hover:scale-110

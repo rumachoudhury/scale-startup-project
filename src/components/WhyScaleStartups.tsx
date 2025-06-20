@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { id } from "../../node_modules/date-fns/locale/id";
+// import { id } from "../../node_modules/date-fns/locale/id";
 
 const WhyScaleStartups = () => {
   return (
@@ -23,7 +23,7 @@ const WhyScaleStartups = () => {
 
           {/* Right Content */}
           <div className="space-y-6 rounded-xl bg-white p-6 shadow-lg dark:bg-slate-800 md:p-14">
-            <h3 className="text-black text-5xl font-bold">
+            <h3 className="text-black text-3xl lg:text-5xl font-bold">
               Why ScaleStartups?
             </h3>
             <p className="text-md pb-2 text-headText lg:text-xl">
@@ -85,7 +85,7 @@ const WhyScaleStartups = () => {
               className="group flex h-full flex-col justify-between space-y-4 rounded-xl bg-tertiary/15 p-8 shadow-lg hover:text-white sm:p-10  bg-[#DFE3F5]  hover:bg-[#375EFB]"
             >
               <div>
-                <h2 className=" group-hover:text-white text-blak text-5xl font-bold">
+                <h2 className=" group-hover:text-white text-blak text-3xl lg:text-5xl font-bold">
                   {title.split(" ").join("\n")}
                 </h2>
                 <p className="text-lg py-4 ">{desc}</p>

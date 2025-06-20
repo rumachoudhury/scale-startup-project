@@ -74,7 +74,7 @@ export default function Footer() {
                   </h4>
                   <ul className="space-y-2 text-sm text-white opacity-80">
                     <li>
-                      <a className="hover:underline" href="/privacy-policy">
+                      <a className="hover:underline" href="">
                         Privacy Policy
                       </a>
                     </li>
@@ -133,7 +133,7 @@ export default function Footer() {
                           ></path>
                         </svg>
                       </a>
-                      <a classNmae="hover:underline" href="">
+                      <a className="hover:underline" href="">
                         <svg
                           width="20"
                           height="21"
@@ -172,7 +172,7 @@ export default function Footer() {
           <hr className="border-t-1 border-white opacity-15" />
           <div className="pt-4 text-center text-white opacity-70">
             <p>©2025 All rights reserved by ScaleStartup</p>
-            </div>
+          </div>
         </div>
       </div>
     </section>
